@@ -1,0 +1,57 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-style: italic;
+ /* font-family: helvetica, arial, sans-serif; */
+  font-family:Arapey;
+  margin: 2em;
+  color: #BC5C4B;
+  background: lightpink;
+}
+
+h1 {
+  font-style: italic;
+  color: #CD5C5C;
+}
+
+iframe{
+  margin:0;
+  padding;0
+  border:none;
+  width:600px;
+  height:600px;
+  
+}
+
+#small-box{
+  width:400px;
+  height:400px;
+}
+#large-box{
+  width:600px;
+  height:600px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+/* unvisited link */
+a:link {
+  color: #BC5C4B;
+}
+
+/* visited link */
+a:visited {
+  color: #BC5C4B;
+}
+
+/* mouse over link */
+a:hover {
+  color: #CD5C5C;
+}
+
+/* selected link */
+a:active {
+  color: #CD5C5C;
+}
